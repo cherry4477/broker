@@ -15,7 +15,13 @@ func TestBroker(t *testing.T) {
 
 /*
 
-func main(t *testing.T) {
+package main
+
+import (
+	"github.com/zonesan/broker"
+)
+
+func main() {
 	mysql, _ := broker.New("mysql")
 	mongo, _ := broker.New("mongodb")
 
@@ -24,6 +30,8 @@ func main(t *testing.T) {
 
 	mongo.Catalog()
 	mongo.Provisioning()
+}
+
 }
 
 */
